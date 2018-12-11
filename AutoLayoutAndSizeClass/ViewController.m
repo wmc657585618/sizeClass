@@ -34,20 +34,28 @@
     table.hi_auto_bottom.equal(self.view.safeAreaLayoutGuide).hi_bottom(0).active();
     table.hi_auto_leading.equal(self.view.safeAreaLayoutGuide).hi_leading(0).active();
     table.hi_auto_trailing.equal(self.view.safeAreaLayoutGuide).hi_trialing(0).active();
-
+    
     // frame
-//    table.hi_frame_bottom.equal(self.view).hi_bottom(-200).active();
-//    table.hi_frame_top.equal(self.view).hi_top(100).active();
-//    table.hi_frame_leading.equal(self.view).hi_leading(0).active();
-//    table.hi_frame_trailing.equal(self.view).hi_trialing(0).active();
-
+    //    table.hi_frame_bottom.equal(self.view).hi_bottom(-200).active();
+    //    table.hi_frame_top.equal(self.view).hi_top(100).active();
+    //    table.hi_frame_leading.equal(self.view).hi_leading(0).active();
+    //    table.hi_frame_trailing.equal(self.view).hi_trialing(0).active();
+    
     __weak typeof(self) weakSelf = self;
     
-    // 4s/SE/6.../6p.../iPhonex... (portrait)
+    // 4s/SE/6.../6p.../iPhonex/xr/xs/xmax (portrait)
     [self sizeClass:HiSizeClassTypeWCHR doAction:^(UITraitCollection *traitCollection) {
         __strong typeof(weakSelf) strongSelf = self;
         strongSelf.view.backgroundColor = UIColor.brownColor;
         table.backgroundColor = UIColor.redColor;
+    }];
+    
+    // 4s/SE/6.../6p.../iPhonex... (landscape)
+    [self sizeClass:HiSizeClassTypeWCHC doAction:^(UITraitCollection *traitCollection) {
+        
+        __strong typeof(weakSelf) strongSelf = self;
+        strongSelf.view.backgroundColor = UIColor.yellowColor;
+        table.backgroundColor = UIColor.blueColor;
     }];
     
     // 6p.../xr/xs/xmax (landscape)
@@ -55,7 +63,7 @@
         __strong typeof(weakSelf) strongSelf = self;
         strongSelf.view.backgroundColor = UIColor.yellowColor;
         table.backgroundColor = UIColor.blueColor;
-
+        
     }];
     
     // ipad (full screen)
@@ -78,11 +86,16 @@
     
     [cell sizeClass:HiSizeClassTypeWCHR doAction:^(UITraitCollection *traitCollection) {
         
-        cell.textLabel.text = @"4s/SE/6.../6p.../iPhonex... (portrait)";
+        cell.textLabel.text = @"4s/SE/6.../6p.../iPhonex/xr/xs/xmax... (portrait)";
+    }];
+    
+    [cell sizeClass:HiSizeClassTypeWCHC doAction:^(UITraitCollection *traitCollection) {
+        
+        cell.textLabel.text = @"4s/SE/6.../6p.../iPhonex... (landscape)";
     }];
     
     [cell sizeClass:HiSizeClassTypeWRHC doAction:^(UITraitCollection *traitCollection) {
-
+        
         cell.textLabel.text = @"6p.../xr/xs/xmax (landscape)";
     }];
     

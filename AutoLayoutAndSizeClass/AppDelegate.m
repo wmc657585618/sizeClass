@@ -17,6 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+//    UITraitCollection* utcC=[UITraitCollection traitCollectionWithVerticalSizeClass:UIUserInterfaceSizeClassCompact];
+//    [UIView appearanceForTraitCollection:utcC].tintColor=[UIColor redColor];
+//    
+//    
+//    UITraitCollection* utcR=[UITraitCollection traitCollectionWithVerticalSizeClass:UIUserInterfaceSizeClassRegular];
+//    [UIView appearanceForTraitCollection:utcR].tintColor=[UIColor greenColor];
     return YES;
 }
 

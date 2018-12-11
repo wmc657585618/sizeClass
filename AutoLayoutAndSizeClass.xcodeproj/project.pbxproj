@@ -13,6 +13,17 @@
 		1C328EA621B52CC800D44899 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C328EA521B52CC800D44899 /* Assets.xcassets */; };
 		1C328EA921B52CC800D44899 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C328EA721B52CC800D44899 /* LaunchScreen.storyboard */; };
 		1C328EAC21B52CC900D44899 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C328EAB21B52CC900D44899 /* main.m */; };
+		1C8C6B9B21B77DC900C6AB98 /* HiLayoutAttributeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C8C6B9A21B77DC900C6AB98 /* HiLayoutAttributeItem.m */; };
+		1CD8C84F21BA26E200429596 /* UIView+HiSizeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C84E21BA26E200429596 /* UIView+HiSizeClass.m */; };
+		1CD8C85521BA28E000429596 /* UIView+HiSizeClass_Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C85421BA28E000429596 /* UIView+HiSizeClass_Property.m */; };
+		1CD8C85821BA299200429596 /* HiSizeClassItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C85621BA299100429596 /* HiSizeClassItem.m */; };
+		1CD8C86721BA542E00429596 /* HiLayoutFrameItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C86621BA542E00429596 /* HiLayoutFrameItem.m */; };
+		1CD8C86A21BA559E00429596 /* UIView+HiAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C86921BA559E00429596 /* UIView+HiAutoLayout.m */; };
+		1CD8C86D21BA55AA00429596 /* UIView+HiFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C86C21BA55AA00429596 /* UIView+HiFrameLayout.m */; };
+		1CD8C87321BA629C00429596 /* HiFrameLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C87221BA629C00429596 /* HiFrameLayoutConstraint.m */; };
+		1CD8C87C21BB9E7F00429596 /* UIViewController+HiSizeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C87B21BB9E7F00429596 /* UIViewController+HiSizeClass.m */; };
+		1CD8C88321BBC31B00429596 /* HiSizeClassPropertyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C88221BBC31B00429596 /* HiSizeClassPropertyItem.m */; };
+		1CD8C88A21BBCDB600429596 /* UIViewController+HiSizeClass_Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD8C88921BBCDB600429596 /* UIViewController+HiSizeClass_Property.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +37,29 @@
 		1C328EA821B52CC800D44899 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C328EAA21B52CC800D44899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C328EAB21B52CC900D44899 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1C8C6B9921B77DC900C6AB98 /* HiLayoutAttributeItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiLayoutAttributeItem.h; sourceTree = "<group>"; };
+		1C8C6B9A21B77DC900C6AB98 /* HiLayoutAttributeItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiLayoutAttributeItem.m; sourceTree = "<group>"; };
+		1CD8C84D21BA26E200429596 /* UIView+HiSizeClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HiSizeClass.h"; sourceTree = "<group>"; };
+		1CD8C84E21BA26E200429596 /* UIView+HiSizeClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HiSizeClass.m"; sourceTree = "<group>"; };
+		1CD8C85321BA28E000429596 /* UIView+HiSizeClass_Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HiSizeClass_Property.h"; sourceTree = "<group>"; };
+		1CD8C85421BA28E000429596 /* UIView+HiSizeClass_Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HiSizeClass_Property.m"; sourceTree = "<group>"; };
+		1CD8C85621BA299100429596 /* HiSizeClassItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiSizeClassItem.m; sourceTree = "<group>"; };
+		1CD8C85721BA299200429596 /* HiSizeClassItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiSizeClassItem.h; sourceTree = "<group>"; };
+		1CD8C86521BA542E00429596 /* HiLayoutFrameItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiLayoutFrameItem.h; sourceTree = "<group>"; };
+		1CD8C86621BA542E00429596 /* HiLayoutFrameItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiLayoutFrameItem.m; sourceTree = "<group>"; };
+		1CD8C86821BA559E00429596 /* UIView+HiAutoLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HiAutoLayout.h"; sourceTree = "<group>"; };
+		1CD8C86921BA559E00429596 /* UIView+HiAutoLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HiAutoLayout.m"; sourceTree = "<group>"; };
+		1CD8C86B21BA55AA00429596 /* UIView+HiFrameLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HiFrameLayout.h"; sourceTree = "<group>"; };
+		1CD8C86C21BA55AA00429596 /* UIView+HiFrameLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HiFrameLayout.m"; sourceTree = "<group>"; };
+		1CD8C87121BA629C00429596 /* HiFrameLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiFrameLayoutConstraint.h; sourceTree = "<group>"; };
+		1CD8C87221BA629C00429596 /* HiFrameLayoutConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiFrameLayoutConstraint.m; sourceTree = "<group>"; };
+		1CD8C87A21BB9E7F00429596 /* UIViewController+HiSizeClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HiSizeClass.h"; sourceTree = "<group>"; };
+		1CD8C87B21BB9E7F00429596 /* UIViewController+HiSizeClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HiSizeClass.m"; sourceTree = "<group>"; };
+		1CD8C88121BBC31B00429596 /* HiSizeClassPropertyItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiSizeClassPropertyItem.h; sourceTree = "<group>"; };
+		1CD8C88221BBC31B00429596 /* HiSizeClassPropertyItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiSizeClassPropertyItem.m; sourceTree = "<group>"; };
+		1CD8C88821BBCDB600429596 /* UIViewController+HiSizeClass_Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HiSizeClass_Property.h"; sourceTree = "<group>"; };
+		1CD8C88921BBCDB600429596 /* UIViewController+HiSizeClass_Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HiSizeClass_Property.m"; sourceTree = "<group>"; };
+		1CD8C88C21BE15DA00429596 /* HiSizeClassProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiSizeClassProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,8 @@
 		1C328E9B21B52CC700D44899 /* AutoLayoutAndSizeClass */ = {
 			isa = PBXGroup;
 			children = (
+				1CD8C84C21BA26C700429596 /* sizeClass */,
+				1CD8C83E21B9251E00429596 /* autoLayout */,
 				1C328E9C21B52CC700D44899 /* AppDelegate.h */,
 				1C328E9D21B52CC700D44899 /* AppDelegate.m */,
 				1C328E9F21B52CC700D44899 /* ViewController.h */,
@@ -69,6 +105,67 @@
 				1C328EAB21B52CC900D44899 /* main.m */,
 			);
 			path = AutoLayoutAndSizeClass;
+			sourceTree = "<group>";
+		};
+		1CD8C83E21B9251E00429596 /* autoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C87121BA629C00429596 /* HiFrameLayoutConstraint.h */,
+				1CD8C87221BA629C00429596 /* HiFrameLayoutConstraint.m */,
+				1C8C6B9921B77DC900C6AB98 /* HiLayoutAttributeItem.h */,
+				1C8C6B9A21B77DC900C6AB98 /* HiLayoutAttributeItem.m */,
+				1CD8C86521BA542E00429596 /* HiLayoutFrameItem.h */,
+				1CD8C86621BA542E00429596 /* HiLayoutFrameItem.m */,
+				1CD8C86821BA559E00429596 /* UIView+HiAutoLayout.h */,
+				1CD8C86921BA559E00429596 /* UIView+HiAutoLayout.m */,
+				1CD8C86B21BA55AA00429596 /* UIView+HiFrameLayout.h */,
+				1CD8C86C21BA55AA00429596 /* UIView+HiFrameLayout.m */,
+			);
+			path = autoLayout;
+			sourceTree = "<group>";
+		};
+		1CD8C84C21BA26C700429596 /* sizeClass */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C88C21BE15DA00429596 /* HiSizeClassProtocol.h */,
+				1CD8C88421BBC63900429596 /* item */,
+				1CD8C88521BBC64B00429596 /* view */,
+				1CD8C88621BBC65B00429596 /* viewController */,
+			);
+			path = sizeClass;
+			sourceTree = "<group>";
+		};
+		1CD8C88421BBC63900429596 /* item */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C85721BA299200429596 /* HiSizeClassItem.h */,
+				1CD8C85621BA299100429596 /* HiSizeClassItem.m */,
+				1CD8C88121BBC31B00429596 /* HiSizeClassPropertyItem.h */,
+				1CD8C88221BBC31B00429596 /* HiSizeClassPropertyItem.m */,
+			);
+			path = item;
+			sourceTree = "<group>";
+		};
+		1CD8C88521BBC64B00429596 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C84D21BA26E200429596 /* UIView+HiSizeClass.h */,
+				1CD8C84E21BA26E200429596 /* UIView+HiSizeClass.m */,
+				1CD8C85321BA28E000429596 /* UIView+HiSizeClass_Property.h */,
+				1CD8C85421BA28E000429596 /* UIView+HiSizeClass_Property.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		1CD8C88621BBC65B00429596 /* viewController */ = {
+			isa = PBXGroup;
+			children = (
+				1CD8C87A21BB9E7F00429596 /* UIViewController+HiSizeClass.h */,
+				1CD8C87B21BB9E7F00429596 /* UIViewController+HiSizeClass.m */,
+				1CD8C88821BBCDB600429596 /* UIViewController+HiSizeClass_Property.h */,
+				1CD8C88921BBCDB600429596 /* UIViewController+HiSizeClass_Property.m */,
+			);
+			path = viewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +240,18 @@
 			files = (
 				1C328EA121B52CC700D44899 /* ViewController.m in Sources */,
 				1C328EAC21B52CC900D44899 /* main.m in Sources */,
+				1CD8C84F21BA26E200429596 /* UIView+HiSizeClass.m in Sources */,
+				1CD8C85521BA28E000429596 /* UIView+HiSizeClass_Property.m in Sources */,
+				1CD8C86D21BA55AA00429596 /* UIView+HiFrameLayout.m in Sources */,
+				1C8C6B9B21B77DC900C6AB98 /* HiLayoutAttributeItem.m in Sources */,
+				1CD8C87C21BB9E7F00429596 /* UIViewController+HiSizeClass.m in Sources */,
+				1CD8C86A21BA559E00429596 /* UIView+HiAutoLayout.m in Sources */,
+				1CD8C87321BA629C00429596 /* HiFrameLayoutConstraint.m in Sources */,
+				1CD8C88A21BBCDB600429596 /* UIViewController+HiSizeClass_Property.m in Sources */,
+				1CD8C85821BA299200429596 /* HiSizeClassItem.m in Sources */,
+				1CD8C88321BBC31B00429596 /* HiSizeClassPropertyItem.m in Sources */,
 				1C328E9E21B52CC700D44899 /* AppDelegate.m in Sources */,
+				1CD8C86721BA542E00429596 /* HiLayoutFrameItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
